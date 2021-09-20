@@ -6,9 +6,9 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [OK] Entrega de firmwares antigos para downgrade forçado
-- [OK] Expiração automática do token
-- [X] Autenticação com JWT 
+- [X] Entrega de firmwares antigos para downgrade forçado
+- [X] Expiração automática do token
+- [ ] Autenticação com JWT 
 
 ## 💻 Pré-requisitos
 
