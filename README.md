@@ -33,4 +33,12 @@ Para usar <FirmwareAutoUpdaterApi>, siga estas etapas:
 node dist/index.js
 ```
 
+## Acessos
+  
+  1-{domain:port}/getToken/<mac>                                    <----- Retorna JSON no formato: {   sessionToken   :   <authToken>    }
+  2-{domain:port}/getVersion/<token>/<mac>                          <----- Retorna JSON no formato: {   latestFirmwareVersion   :   <Firmware_name>   }
+  3-{domain:port}/getUpdate/<token/<mac>/<firmwareVersion>          <----- Retorna arquivo para download
+  
+  
+  
 [⬆ Voltar ao topo](#FirmwareAutoUpdaterApi)<br>
