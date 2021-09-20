@@ -36,7 +36,7 @@ node dist/index.js
 ## Acessos
   
   1-{domain:port}/getToken/<mac><br>
-  <----- Retorna JSON no formato: 
+  Retorna JSON no formato: 
 ```
  {   sessionToken   :   <authToken>    }
   ```
@@ -47,8 +47,9 @@ node dist/index.js
   {   latestFirmwareVersion   :   <Firmware_name>   }
   ```
   3-{domain:port}/getUpdate/<token/<mac>/<firmwareVersion><br>
+  ```
  Retorna arquivo para download
-  
+  ```
   
   
 [⬆ Voltar ao topo](#FirmwareAutoUpdaterApi)<br>
