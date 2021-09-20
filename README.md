@@ -5,10 +5,7 @@
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [X] Entrega de firmwares antigos para downgrade forçado
-- [X] Expiração automática do token
-- [ ] Autenticação com JWT 
+- [X] Autenticação com JWT 
 
 ## 💻 Pré-requisitos
 
