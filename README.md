@@ -44,7 +44,10 @@ src\macList.ts
 src\firmwareList.ts
 
 ...
-{Path:<Nome do arquivo>,name:<Nome_de_exibição>}
+{
+    Path    :    <Nome do arquivo>,
+    name    :    <Nome_de_exibição>
+}
 ...
 
 ```
