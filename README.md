@@ -69,18 +69,18 @@ node dist/index.js
 
 ## Acessos
   
-  GET 1-{domain:port}/getToken/<mac><br>
+  GET 1-{domain:port}/getToken/\<mac\><br>
   Retorna JSON no formato: 
 ```
  {   sessionToken   :   <authToken>    }
   ```
   
-  GET 2-{domain:port}/getVersion/<token>/<mac><br>
+  GET 2-{domain:port}/getVersion/\<token\>/\<mac\><br>
   Retorna JSON no formato: 
 ```
   {   latestFirmwareVersion   :   <Firmware_name>   }
   ```
-  GET 3-{domain:port}/getUpdate/<token/<mac>/<firmwareVersion><br>
+  GET 3-{domain:port}/getUpdate/\<token\>/\<mac\>/\<firmwareVersion\><br>
   ```
  Retorna arquivo para download
   ```
