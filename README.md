@@ -17,14 +17,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o <FirmwareAutoUpdaterApi>, siga estas etapas:
 
-```
-npm init -y
-tsc
-```
-
-## ☕ Usando <FirmwareAutoUpdaterApi>
-
-Para usar <FirmwareAutoUpdaterApi>, siga estas etapas:
 Configure os arquivos
 ```
 src\macList.ts
@@ -60,7 +52,17 @@ let config={
             FirmwareVersionList:fwLST
     },
 ```
-Após a configuração é so rodar
+Logo após a configuração é instalamos as dependências e fazemos a transpilação
+```
+npm init -y
+tsc
+```
+
+## ☕ Usando <FirmwareAutoUpdaterApi>
+
+Para usar <FirmwareAutoUpdaterApi>, siga estas etapas:
+
+Se já fez a configuração é so rodar
 ```
 node dist/index.js
 ```
