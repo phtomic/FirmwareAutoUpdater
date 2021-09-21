@@ -25,7 +25,39 @@ tsc
 ## ☕ Usando <FirmwareAutoUpdaterApi>
 
 Para usar <FirmwareAutoUpdaterApi>, siga estas etapas:
+Configure os arquivos
+```
+src\macList.ts
+src\firmwareList.ts
+```
+No seguinte formato para cada nova entrada:
+```
+src\macList.ts
 
+...
+{     Mac    :    <mac-ou-serial>    },
+...
+
+
+```
+```
+src\firmwareList.ts
+
+...
+{Path:<Nome do arquivo>,name:<Nome_de_exibição>}
+...
+
+```
+O diretório onde ficam localizados os arquivos do firmwareList.ts, pode ser editado no arquivo de configuração 'src/config.ts'
+```
+let config={
+    firmware:{
+            firmwareVersion:"{FIRMWARE NAME}",
+            uploadPath:"/firmwares/",     <----------------- Pode ser alterado aqui
+            FirmwareVersionList:fwLST
+    },
+```
+Após a configuração é so rodar
 ```
 node dist/index.js
 ```
